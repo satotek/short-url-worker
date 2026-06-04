@@ -3,6 +3,12 @@
   "name": "short-url-worker",
   "main": "src/index.tsx",
   "compatibility_date": "2026-06-04",
+  "routes": [
+    {
+      "pattern": "s.satotek.com",
+      "custom_domain": true
+    }
+  ],
   "d1_databases": [
     {
       "binding": "DB",
